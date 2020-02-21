@@ -1,0 +1,157 @@
+.header-box {
+    background-color: black;
+    margin: auto;
+    width: 1024px;
+    height: 100px;
+}
+
+.logo-box{
+    display: inline-flex;
+    width: 400px;
+}
+
+h1 {
+    padding-left: 11%;
+    padding-top: 3%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: upperCase;
+}
+
+.star{
+    padding-top: 9.5%;
+    position: relative;
+    color:rgb(218, 70, 83);
+}
+
+.navigation-bar{
+    margin: 0% 0% 0% 14%;
+    display: inline-flex; 
+}
+
+.button-box{
+    padding-left: 20px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: upperCase;
+}
+
+.button-box:focus{
+    color: rgb(218, 70, 83); 
+    outline: none;  
+}
+.button-box:hover{
+    color: rgb(221, 134, 141); 
+    outline: none;  
+}
+
+.slider-box{
+    background-color: #f06c64;
+    margin: auto;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-slider{
+    padding-right: 0%;
+    background-color: #f06c64;
+    margin: 5% 0% 5% 3%;
+}
+
+.left-arrow{
+    display: inline-block;
+    margin: 23% 0% 0% 2%;
+    opacity: 0.3;
+    width: 40px;
+    height: 60px;
+    background-color: #f06c64;
+    outline: none;
+    border: none;
+    font-size: 40px;   
+}
+
+.right-arrow{
+    transform: scale(-1, 1);
+    margin-right: 2%;
+}
+
+
+.right-arrow:hover,
+.left-arrow:hover{
+    background-color: rgb(196, 124, 124);
+    opacity: 0.2;
+}
+.right-arrow:focus,
+.left-arrow:focus{
+    outline: none; 
+    background-color: rgb(196, 124, 124);
+}
+
+.our-services-box{
+    position: relative;
+    margin-top: 0%;
+    background-color: #f2f2f2;
+    margin: auto;
+    width: 1024px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    padding-right: 4%;
+    justify-content: space-between;
+  }
+
+.icon-img{
+    padding-top: 2%;
+    padding-right: 2%;
+    margin-left: 4%;
+    
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.title-block{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #666d89;
+    font-weight: 600;
+}
+
+.text-block{
+font-family: 'Lato', sans-serif; 
+font-size: 11px;
+margin-left: 0%;  
+padding-left: 1%;
+line-height: 180%;
+padding-right: -5%;
+width: 300px;
+color: #767e9e;
+text-align: justify;
+font-weight: bolder;
+}
+
+.title-our-services-box{
+    margin-top: 0%;
+    padding-top: 4%;
+    padding-left: 4%;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #666d89;
+    font-weight: bolder;
+}
+
+.services-text-block{
+    padding-left: 4%;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: #767e9e;
+    line-height: 150%;
+    padding-right: 3%;
+    
+}
