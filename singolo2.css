@@ -1,0 +1,206 @@
+body{
+    margin-top: 0%;
+    }
+
+.portfolio-box {
+    position: relative;
+    margin: auto;
+    width: 1020px;
+    height: 870px;
+    background: #2d303a;
+  }
+
+.box {
+    position: relative;
+    display: flex;
+    margin-top: 2.7%;
+    margin-left: 4%;
+    padding-top: 1.1%;
+    padding-right: 2%;
+    padding-bottom: 0%;
+    margin-right: 0%;
+    text-align: justify;
+    
+  }
+
+.text-block{
+    margin-top: -3.2%;
+    margin-left: -0.1%;    
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 190%;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.icon-img{
+    padding-top: 1.0%;
+    padding-right: 2%;
+    margin-left: 0%;
+    
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+ 
+}
+
+.title-block{
+    margin-top: 13%;
+    font-size: 18px;
+    line-height: 200%;
+    font-family: 'Lato', sans-serif;
+    color: #666d89;
+    font-weight: 600;
+}
+
+h2{
+font-family: 'Lato', sans-serif; 
+margin-top: 0.1%;
+margin-left: 0%;  
+padding-top: 19%;
+padding-left: 5%;
+
+letter-spacing: 0.4px;
+padding-right: 0%;
+width: 300px;
+color: #767e9e;
+text-align: justify;
+font-weight: bolder;
+}
+
+.title-our-services-box{
+    padding-top: 6%;
+    padding-left: 3.9%;
+    line-height: 93%;
+    font-size: 30.3px;
+    letter-spacing: 0.1px;
+    font-family: 'Lato', sans-serif;
+    color: #666d89;
+    font-weight: bolder;
+}
+
+.services-text-block{
+    word-spacing: 0.2px;
+    padding-top: 0%;
+    margin-top: -0.2%;
+    padding-bottom: 0%;
+    padding-left: 4%;
+    font-size: 17.6px;
+    letter-spacing: 0.1px;
+    font-family: 'Lato', sans-serif;
+    color: #767e9e;
+    line-height: 180%;
+}
+
+.portfolio-box {
+    position: relative;
+    margin: auto;
+    width: 1020px;
+    height: 870px;
+    background: #2d303a;
+  }
+
+  .button-box-in-portfolio{
+      margin-left: 3.7%;
+     margin-top: -0.7%;
+  }
+
+  .button-portfolio-menu{
+      margin-left: 0.5%;
+      margin-right: 0.2%;
+      padding-right: 0.8%;
+      padding-left: 0.8%;
+     vertical-align: middle;
+      font-size: 11px;
+   color: white;
+   background-color: #2d303a;
+   border-radius: 5px;
+   border: 0.5px solid white;
+   opacity: 0.5;
+   height: 20px;
+  }
+
+  .button-portfolio-menu:active{
+    background-color: #2d303a;
+    outline: none;
+    opacity: 1;
+}
+
+.button-portfolio-menu:hover{
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    background-color: #2d303a;
+    opacity: 0.4;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-portfolio-menu:focus{
+    background-color: #2d303a;
+    opacity: 1;
+    outline: none;
+}
+
+.gallery-container{
+    position: relative;
+    margin-top: 1.9%;
+    display: flex;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 0%;
+}
+
+.galery-img{
+    text-align: justify;
+    padding-right: 2.1%;
+    width: 220px;
+    height: 187px;
+}
+
+.galery-img:active{
+    transform: scale(1.7);
+    z-index: 1;
+}
+
+.galery-img:hover{
+    cursor: pointer;
+    transform: scale(1.7);
+    z-index: 1;
+}
+
+.about-us-box{
+    position: relative;
+    background-color: #f2f2f2;
+    margin: auto;
+    width: 1020px;
+    height: 733px;
+}
+
+.person-photo{
+margin-top: 0.4%;
+padding-right: 2%;
+width: 300px;
+height: 300px;  
+cursor: pointer;
+}
+
+.link{
+    position: relative;
+    display: inline-block;
+    padding-left: 0%; 
+}
+
+
+.icon-link{
+margin-top: 12%;
+padding-right: 2.5%;
+border-radius: 50%; 
+}
+
+.icon-link:hover{
+    background: none;
+    cursor: pointer;
+}
+
+.person-name{
+    letter-spacing: 0.5px;
+}
